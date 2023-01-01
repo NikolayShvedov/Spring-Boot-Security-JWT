@@ -6,5 +6,11 @@ API: http://localhost:8081
 API: http://localhost:8081/api/login
 ![img.png](src/main/resources/img/img.png)
 
-API: http://localhost:8081/api/users `(invalid access_token)`
+API: http://localhost:8081/api/users `(invalid access token)`
 ![img.png](src/main/resources/img/img2.png)
+
+API: http://localhost:8081/api/users `(valid access token)`
+![img.png](src/main/resources/img/img3.png)
+
+API: http://localhost:8081/api/token/refresh `(valid refresh token)`
+![img.png](src/main/resources/img/img4.png)
